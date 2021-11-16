@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<meta charset="utf-8">
+		<title>Form</title>
+	</head>
+	<body>
+		<h1>Duomenu informacija</h1>
+		<fieldset>
+			<label>El. pašto adresas:<label style="color:red">*</label></label>
+			<input type="email" required>
+		</fieldset>
+		<fieldset>
+			<label>Slaptažodis:<label style="color:red">*</label></label>
+			<input type="password" required>
+		</fieldset>
+		<fieldset>
+			<label>Patvirtinti slaptažodį:<label style="color:red">*</label></label>
+			<input type="password" required>
+		</fieldset>
+		<fieldset>
+				<label>Sutinku su <u>taisyklėmis</u></label>
+				<input type="checkbox" checked>
+		</fieldset>
+		<h1>Pasirinkite sąskaitos adresą</h1>
+		<fieldset>
+				<label>Lytis<label style="color:red">*</label></label>
+				<select>
+					<option selected disabled>-Pasirinkite-</option>
+					<option>Moteris</option>
+					<option>Vyras</option>
+					<option>Kitas</option>
+				</select>
+		</fieldset>
+		<fieldset>
+			<label>Vardas:<label style="color:red">*</label></label>
+			<input type="text" required>
+		</fieldset>
+		<fieldset>
+			<label>Pavardė:<label style="color:red">*</label></label>
+			<input type="text" required>
+		</fieldset>
+		<fieldset>
+			<label>Gatvė, namo(buto) nr.:<label style="color:red">*</label></label>
+			<input type="text" required>
+			<input type="number" required>
+		</fieldset>
+		<fieldset>
+			<label>Pašto kodas:<label style="color:red">*</label></label>
+			<input type="number" required>
+			<a href="http://www.kitm.lt" target="_blank"><u>Pašto kodo paieška</u></a>
+		</fieldset>
+		<fieldset>
+			<label>Miestas:<label style="color:red">*</label></label>
+			<input type="text" required>
+		</fieldset>
+		<fieldset>
+			<label>Šalis:<label style="color:red">*</label></label>
+			<select>
+				<option selected disabled> - </option>
+				<option>Šalis1</option>
+				<option>Šalis2</option>
+				<option>Šalis3</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<label>Telefonas:<label style="color:red">*</label></label>
+			<input type="number" required>
+		</fieldset>
+		<fieldset>
+			<label>Papildoma informacija:<br>(Pavyzdžiui vartelių/durų kodas)</label>
+			<textarea></textarea>
+		</fieldset>
+		<h5>Prašome užpildyti visus pažymėtus laukus<label style="color:red">*</label></h5>
+		
+				<button type="submit">Registruotis</button>
+		
+	</body>
+</html>
